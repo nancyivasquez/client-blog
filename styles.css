@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    padding: 20px;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    background: #7689DE;
+}
+h2{
+  border-bottom: 3px solid #7689DE;
+  padding-bottom: 20px;
+  margin: 0px;
+  color: white;
+  font-weight: bold;
+  background: #7689DE;
+}
+h3{
+  margin: 30px 0px;
+  font-size: 40px;
+  margin-bottom: 0px;
+  border-top: 10px solid #A9DCE3;
+  padding-top: 30px;
+  font-style: italic;
+  color: #7689DE;
+}
+h4{
+  margin-bottom: 20px;
+}
+main p{
+    text-align: justify;
+    width: 50%;
+    margin:auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    text-indent: 40px;
+}
+figure{
+  margin: 30px;
+}
+figcaption{
+  font-style: italic;
+  color:#7689DE;
+  font-size: 16px;
+}
+ul{
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 0px;
+}
+li{
+  display: inline;
+  padding: 10px;
+}
+.share{
+  margin: 30px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.share h5{
+  color:#7689DE;
+  font-size: 30px;
+}
+section.subscribe{
+    background-color: #A9DCE3;
+    background-image: url("images/lavender-sky-fixed.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    color:#7689DE;
+}
+.subscribe p{
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto 20px;
+  line-height: 45px;
+}
+.title{
+  font-size: 40px;
+}
+.for-more{
+  font-size: 30px;
+}
+.button{
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  border: 3px solid #7689DE;
+  border-radius: 5px;
+  color:#7689DE;
+  background: white;
+}
+.button:hover{
+  background: #7689DE;
+  color: white;
+  border: 3px solid white;
+}
+.contact{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+.contact h5{
+  color: #7689DE;
+  font-size: 30px;
+  display: inline-block;
+}
+.contact p{
+  margin: 0px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+.contact p a{
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid #7689DE;
+  padding: 10px;
+  color: #A9DCE3;
+  background: #7689DE;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.contact p a:hover{
+  background: #A9DCE3;
+  color:#7689DE;
+}
+footer{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:link{
+  color: black;
+}
+footer a:visited{
+  color:#A9DCE3;
+}
+footer a:hover{
+  color:#7689DE;
+}
